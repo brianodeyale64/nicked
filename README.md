@@ -113,6 +113,31 @@ flowchart LR
   </tr>
 </table>
 
+### 💳 Paying with Stripe
+
+From pricing to an unlocked shop. These are real screens from a test-mode payment in our Stripe sandbox.
+
+<table>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/pricing.png" alt="Choose cameras on the pricing page" /></td>
+    <td width="50%"><img src="docs/screenshots/stripe-checkout.png" alt="Stripe Checkout" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>1 · Pick cameras</b><br /><sub>Graduated per-camera price, monthly or yearly</sub></td>
+    <td align="center"><b>2 · Stripe Checkout</b><br /><sub>Hosted by Stripe: card, Apple Pay, Link, Revolut Pay, Klarna</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="docs/screenshots/stripe-success.png" alt="Payment confirmed" /></td>
+    <td width="50%"><img src="docs/screenshots/billing-active.png" alt="Billing page with an active plan" /></td>
+  </tr>
+  <tr>
+    <td align="center"><b>3 · You're set</b><br /><sub>Webhook confirms the payment and turns the cameras on</sub></td>
+    <td align="center"><b>4 · Active plan</b><br /><sub>Cameras, renewal date, and Stripe's billing portal</sub></td>
+  </tr>
+</table>
+
+<p align="center"><img src="docs/screenshots/stripe-checkout-mobile.png" alt="Stripe Checkout on mobile" width="30%" /></p>
+
 <details>
 <summary><b>🌙 Dark mode</b></summary>
 <br />
